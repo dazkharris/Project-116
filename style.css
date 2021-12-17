@@ -1,0 +1,22 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: green;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px blue;
+    }
+  to {
+        box-shadow: 1px 1px 38px greenyellow;
+    }
+}
